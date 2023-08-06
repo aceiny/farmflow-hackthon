@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-btns-auth{
+    background-color: #018383;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 100px;
+}
+.nav-btns-auth li {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.filter-select-default {
+
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #403C39 ;
+}
+.filter-select-default h1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.custom-dropdown-container{
+    border-radius: 100px;
+    position: relative;
+
+}
+/* Custom styles for the dropdown container */
+.custom-dropdown-container .react-dropdown-select {
+    border-radius: 100px;
+    background-color: #c4c4c4;
+    color: black;
+    padding: 15px;
+    width: 137px;
+  }
+  .custom-dropdown-container::placeholder .react-dropdown-select::placeholder{
+    color: white;
+  }
+  .custom-dropdown-container .react-dropdown-select .react-dropdown-select-dropdown {
+    background-color: #C4C4C4;
+    border-radius: 10px 10px 16px 16px;
+    width: 137px;
+  }
+  .custom-dropdown-container-filter .react-dropdown-select {
+    border-radius: 100px;
+    background-color: #ffffff;
+    color: black;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid #403C39
+  }
+  
+  .custom-dropdown-container-filter .react-dropdown-select .react-dropdown-select-dropdown {
+    background-color: #ffffff;
+    border-radius: 10px 10px 16px 16px;
+    width: 200px;
+    border: 1px solid #403C39
+  }
+  .one-product-card-market-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .one-product-card-market-info button{
+    border: 1px solid #5B5B5B;
+    width: 164px;
+    text-align: center;
+    height: 52px;
+    border-radius: 100px;
+
+  }
+.one-product-card-market-info-down{
+    color:  #5B5B5B;
+    position: relative;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.product-first-details,.product-second-details,.product-third-details{
+  border-bottom: 1px solid #ACACAC;
+  width: 100%;
+  padding: 30px 0;
+}
+.product-page-buttons-add{
+  border: 1px solid #5B5B5B;
+}
+.product-page-delivery{
+  border-radius: 50px;
+  border: 1px solid #5B5B5B
+}
+@media (width < 1250px) {
+  .product-page-main {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+}
