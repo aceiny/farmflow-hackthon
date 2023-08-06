@@ -55,7 +55,7 @@ We would like to express our gratitude to all the contributors and participants 
 ![signup](https://github.com/aceiny/farmflow-hackthon/assets/112300561/bbd32a62-1554-4983-a745-51cb254aef60)
 ![auth-responsive](https://github.com/aceiny/farmflow-hackthon/assets/112300561/8b2ba8ce-25e7-41cd-be0d-538dfb938c36)
 ![marketplace](https://github.com/aceiny/farmflow-hackthon/assets/112300561/aaabccb2-3c5d-4e4e-ad18-b45790db8999)
-![marketplace2](https://github.com/aceiny/farmflow-hackthon/assets/112300561/fbe13d19-e2fd-4f13-a2f2-978e4ec8239f)![product page responsive](https://github.com/aceiny/farmflow-hackthon/assets/112300561/b9f0575e-c24e-477d-8ddd-16056107a088)
+![marketplace2](https://github.com/aceiny/farmflow-hackthon/assets/112300561/fbe13d19-e2fd-4f13-a2f2-978e4ec8239f)
 
 ![experts](https://github.com/aceiny/farmflow-hackthon/assets/112300561/75287020-36a5-4f71-a86f-dcbfffa19d6c)
 ![experts responsive](https://github.com/aceiny/farmflow-hackthon/assets/112300561/4a59f4e3-c5d0-460e-9807-c61ffc4009fa)
@@ -63,3 +63,4 @@ We would like to express our gratitude to all the contributors and participants 
 ![jobs-responsive-2](https://github.com/aceiny/farmflow-hackthon/assets/112300561/b24ee047-07ba-4e4a-a3c0-02fd72e1e25a)
 ![productpage](https://github.com/aceiny/farmflow-hackthon/assets/112300561/845bb366-6078-438e-8775-bc1cf7dafe21)
 ![profile](https://github.com/aceiny/farmflow-hackthon/assets/112300561/4cef535c-d2bc-4483-83d4-6efe5a115caa)
+![product page responsive](https://github.com/aceiny/farmflow-hackthon/assets/112300561/b9f0575e-c24e-477d-8ddd-16056107a088)
