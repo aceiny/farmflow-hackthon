@@ -2,7 +2,7 @@ Farm flow , a website for bytecraft eternal hackthon , the site is a  full stack
 dynamique products from database , 
 didnt have time for jobs database and images so i used products database and a static image , 
 most of the website is responsive , and require user auth first to acces pages , i also add some cool animations and transistions
-
+the user profile name is dynamique the other is static ,
 
 
 FarmFlow Hackathon Website
@@ -62,5 +62,5 @@ We would like to express our gratitude to all the contributors and participants 
 ![Jobs](https://github.com/aceiny/farmflow-hackthon/assets/112300561/4c48cd15-a5da-421b-80ba-a06e262fef9b)
 ![jobs-responsive-2](https://github.com/aceiny/farmflow-hackthon/assets/112300561/b24ee047-07ba-4e4a-a3c0-02fd72e1e25a)
 ![productpage](https://github.com/aceiny/farmflow-hackthon/assets/112300561/845bb366-6078-438e-8775-bc1cf7dafe21)
-![profile](https://github.com/aceiny/farmflow-hackthon/assets/112300561/4cef535c-d2bc-4483-83d4-6efe5a115caa)
 ![product page responsive](https://github.com/aceiny/farmflow-hackthon/assets/112300561/b9f0575e-c24e-477d-8ddd-16056107a088)
+![profile](https://github.com/aceiny/farmflow-hackthon/assets/112300561/4cef535c-d2bc-4483-83d4-6efe5a115caa)
