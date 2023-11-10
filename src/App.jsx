@@ -11,22 +11,65 @@ import ProductPage from "./pages/ProductPage";
 import Profile from "./pages/Profile";
 import Recruiments from "./pages/recruiments";
 function App() {
-  const isAuth = useSelector(state=>state.auth.isLogged)
-      /*<Route  path="/" exact element={(!isAuth ? <Main/> : <AuthPage/>)} />
-        <Route  path="/auth" exact element={(!isAuth ? <AuthPage/> : <Redirect/> )} />*/
+  const Routes = [
+          {
+            name: 'Home',
+            path: '/',
+            exact: true,
+            component: <Main/>,
+          },
+          {
+            name : "auth",
+            path : "/auth",
+            exact : true,
+            component : <AuthPage/>,
+          },
+          {
+            name : "marketplace",
+            path : "/marketplace",
+            exact : true,
+            component : <Marketplace/>,
+          },
+          {
+            name : "marketplace",
+            path : "/marketplace/:productID",
+            exact : true,
+            component : <ProductPage/>,
+          },
+          {
+            name : "profile",
+            path : "/profile",
+            exact : true,
+            component : <Profile/>,
+          },
+          {
+            name : "recruietments",
+            path : "/recruietments",
+            exact : true,
+            component : <Recruiments/>,
+          },
+          {
+            name : "experts",
+            path : "/experts",
+            exact : true,
+            component : <Recruiments/>,
+          },
+          {
+            name : "notfound",
+            path : "*",
+            exact : true,
+            component : <NotFound/>,
+          }
+        ]
   return (
     <>
     <BrowserRouter>
     <Routes>
-    <Route  path="/" exact element={( isAuth?<Main/>:<AuthPage/>)} />
-    <Route  path="/auth" exact element={( isAuth?<Redirect/>:<AuthPage/>)} />
-    <Route  path="/marketplace" exact element={(isAuth?<Marketplace/>:<AuthPage/>)} />
-    <Route  path="/marketplace/:productID" exact element={(isAuth?<ProductPage/>:<AuthPage/>)} />
-    <Route  path="*" exact element={<NotFound/>} />
-    <Route  path="profile" exact element={( isAuth?<Profile/>:<AuthPage/>)}/>
-    <Route  path="/recruietments" exact element={( isAuth?<Recruiments/>:<AuthPage/>)}/>
-    <Route  path="/experts" exact element={( isAuth?<Recruiments/>:<AuthPage/>)}/>
-
+      {
+        Routes.map((v,i)=>{
+          return <Route key={i} path={v.path} element={v.component} exact={v.exact}/>
+        })
+      }
     </Routes>
     </BrowserRouter>
     </>
