@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import farmer from '../../public/assets/MainPageImages/farmer.png'
 import pcsvg from './job.svg'
 import prate from './prate.svg'
 import {MdLocationPin} from 'react-icons/md'

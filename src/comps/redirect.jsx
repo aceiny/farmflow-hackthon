@@ -1,6 +1,6 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useEffect} from "react";
+import { useNavigate} from "react-router-dom";
 
 const Redirect = () => {
     const authpage = 'http://localhost:5173/'

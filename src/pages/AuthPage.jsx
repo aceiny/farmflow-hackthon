@@ -4,7 +4,6 @@ import signimg from '../../public/assets/AuthPages/signinpage.png'
 import signupimg from '../../public/assets/AuthPages/signupimg.png'
 import nextimg from '../../public/assets/AuthPages/nextform.png'
 import {BiSolidHide} from 'react-icons/bi'
-import Fade from 'react-reveal/Fade'
 import { typelogin, typesignup } from "../redux/slices/authtypeslice";
 import { useDispatch,useSelector } from "react-redux";
 import { useEffect } from "react";
@@ -134,7 +133,7 @@ const AuthPage = () => {
 
         <div className="Singupnext auth-page-all flex items-center justify-around  pl-[250px] pr-[320px] gap-12">
             <div className="auth-page-form w-[600px] flex flex-col justify-center items-center gap-6">
-            <Fade right><h1 className="text-[16px] font-[500] min-w-[210px]">Welcome to farmflow</h1>
+            <h1 className="text-[16px] font-[500] min-w-[210px]">Welcome to farmflow</h1>
                 <div className="flex w-full justify-center">
                     <div className="flex auth-page-type items-center justify-between p-4 py-3 gap-5 rounded-[100px] text-white bg-[#DAFAFA]">
                         <div className="py-4 text-[#02A8A8] text-[16px] font-[400] auth-page-type-inactive px-20">
@@ -160,10 +159,10 @@ const AuthPage = () => {
                         </div>
                     </div>
                     <div className="auth-page-form-button self-end bg-[#02A8A8] px-28 py-5 text-white rounded-[100px]"><button onClick={handlesignupnew}>Sign up</button></div>
-                </form></Fade>
+                </form>
             </div>
             <div>
-            <Fade left><img src={nextimg} alt="" className="min-w-[500px]"/></Fade>
+            <img src={nextimg} alt="" className="min-w-[500px]"/>
             </div>
         </div>
         </div>
@@ -190,11 +189,11 @@ const AuthPage = () => {
         <img src={logo} alt="" className=" min-w-[179px]"/>
     </div>
             <div className="Login auth-page-all flex items-center justify-around  pl-[250px] pr-[320px] gap-12">
-            <Fade left><div>
+            <div>
                 <img src={signimg} alt="" className="min-w-[500px]"/>
-            </div></Fade>
+            </div>
             <div className="auth-page-form w-[600px] flex flex-col justify-center items-center gap-6">
-            <Fade right><h1 className="text-[16px] font-[500] min-w-[210px]">Welcome to farmflow</h1>
+            <h1 className="text-[16px] font-[500] min-w-[210px]">Welcome to farmflow</h1>
                 <div className="flex w-full justify-center">
                     <div className="flex auth-page-type items-center justify-between p-4 py-3 gap-5 rounded-[100px] text-white bg-[#DAFAFA]">
                         <div className="bg-[#02A8A8] rounded-[100px] py-4 w-[194px] min-w-[150px] text-center text-[16px] font-[400]">
@@ -220,7 +219,7 @@ const AuthPage = () => {
                         </div>
                     </div>
                     <div className="auth-page-form-button self-end bg-[#02A8A8] px-28 py-5 text-white rounded-[100px]"><button onClick={handleloginusercheck}>Signin</button></div>
-                </form></Fade>
+                </form>
             </div>
         </div>
         </div>)
@@ -234,9 +233,9 @@ const AuthPage = () => {
     </div>
                 <div className="Singin auth-page-all flex items-center justify-around  pl-[250px] pr-[320px] gap-12">
     <div>
-    <Fade left><img src={signupimg} alt="" className="min-w-[500px]"/></Fade>
+    <img src={signupimg} alt="" className="min-w-[500px]"/>
     </div>
-    <Fade right><div className="auth-page-form w-[600px] flex flex-col justify-center items-center gap-6">
+    <div className="auth-page-form w-[600px] flex flex-col justify-center items-center gap-6">
     <h1 className="text-[16px] font-[500] min-w-[210px]">Welcome to farmflow</h1>
         <div className="flex w-full justify-center">
             <div className="flex auth-page-type items-center justify-between p-4 py-3 gap-5 rounded-[100px] text-white bg-[#DAFAFA]">
@@ -264,7 +263,7 @@ const AuthPage = () => {
             </div>
             <div className="auth-page-form-button self-end bg-[#02A8A8] px-28 py-5 text-white rounded-[100px]"><button onClick={handlnextform}>Next</button></div>
         </form>
-    </div></Fade>
+    </div>
 </div></div>
             )
         }

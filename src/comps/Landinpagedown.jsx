@@ -4,7 +4,6 @@ import elipse from '../../public/assets/MainPageImages/Ellipse 5.png'
 import whyus from '../../public/assets/MainPageImages/whyus.png'
 import {SlArrowDown} from 'react-icons/sl'
 import { whyusdata } from "../data/MainPageData";
-import Faq from "./Faq";
 const LandinPageDown = () =>{
     return (
         <>

@@ -1,15 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { FaBars , FaUser , FaShoppingBag} from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import { links} from '../data/NavBarData';
 import logo from '../../public/assets/logo.svg';
 import { Link } from 'react-router-dom';
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { typelogin,typesignup } from '../redux/slices/authtypeslice';
-import {LiaShoppingBagSolid} from 'react-icons/lia'
-import {TfiSearch} from 'react-icons/tfi'
-import {AiOutlineHeart} from 'react-icons/ai'
-import {FiUser} from 'react-icons/fi'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 library.add(fas);

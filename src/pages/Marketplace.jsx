@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../comps/Navbar";
 import {SlArrowDown} from 'react-icons/sl'
 import FilterinCard from "../comps/FilterinCard";
@@ -14,7 +13,6 @@ import botline2 from '../../public/assets/marketplace/botline2.svg'
 import botline3 from '../../public/assets/marketplace/botline3.svg'
 import elipse from '../../public/assets/MainPageImages/Ellipse 5.png'
 import { getProducts } from "../redux/slices/productsSlice";
-import { useState } from "react";
 import Footer from "../comps/footer";
 const Marketplace = () =>  {
     const products = useSelector(state => state.products.data)
