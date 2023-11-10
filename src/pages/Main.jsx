@@ -9,7 +9,7 @@ import farmer from '../../public/assets/MainPageImages/farmer.png'
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { setPage } from "../redux/slices/pageSlice";
-import Footer from "../comps/footer";
+import Footer from "../comps/Footer";
 import LandinPageDown from "../comps/Landinpagedown";
 const Main = () =>  {
     // set current page to this page 

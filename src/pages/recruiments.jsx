@@ -13,7 +13,7 @@ import botline2 from '../../public/assets/marketplace/botline2.svg'
 import botline3 from '../../public/assets/marketplace/botline3.svg'
 import elipse from '../../public/assets/MainPageImages/Ellipse 5.png'
 import { getProducts } from "../redux/slices/productsSlice";
-import Footer from "../comps/footer";
+import Footer from "../comps/Footer";
 import JobsCard from "../comps/jobsCard";
 const Recruiments = () => {
     const products = useSelector(state => state.products.data)
