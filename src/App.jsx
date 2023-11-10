@@ -67,7 +67,7 @@ function App() {
     <Routes>
       {
         Routes.map((v,i)=>{
-          return <Route key={i} path={v.path} element={v.component} exact={v.exact}/>
+          return <Route key={i} path={v.path} element={v.component}/>
         })
       }
     </Routes>
